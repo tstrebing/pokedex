@@ -24,7 +24,7 @@ function Footer() {
                                     <li className="list-group-item pb-2"><Link to="/Pokedex" className="footerText"><span className="footerLine"></span>Pokedex</Link></li>
                                     <li className="list-group-item pb-2"><Link to="/News" className="footerText"><span className="footerLine"></span>News</Link></li>
                                     <li className="list-group-item pb-2"><Link to="/About" className="footerText"><span className="footerLine"></span>About</Link></li>
-                                    <li className="list-group-item pb-2"><Link to="/Contact" className="footerText"><span className="footerLine"></span>Contact</Link></li>
+                                    {/* <li className="list-group-item pb-2"><Link to="/Contact" className="footerText"><span className="footerLine"></span>Contact</Link></li> */}
                                 </ul>
                             </div>
 
