@@ -26,7 +26,7 @@ function Navigation() {
                         <NavLink to="/Pokedex" className={({ isActive }) => (isActive ? activeLink : normalLink)}><Button className="navbarHover border-0" variant="outline-transparent text-white">POKEDEX</Button>{' '}</NavLink>
                         <NavLink to="/News" className={({ isActive }) => (isActive ? activeLink : normalLink)}><Button className="navbarHover border-0" variant="outline-transparent text-white">NEWS</Button>{' '}</NavLink>
                         <NavLink to="/About" className={({ isActive }) => (isActive ? activeLink : normalLink)}><Button className="navbarHover border-0" variant="outline-transparent text-white">ABOUT</Button>{' '}</NavLink>
-                        <NavLink to="/Contact" className={({ isActive }) => (isActive ? activeLink : normalLink)}><Button className="navbarHover border-0" variant="outline-transparent text-white">CONTACT</Button>{' '}</NavLink>
+                        {/* <NavLink to="/Contact" className={({ isActive }) => (isActive ? activeLink : normalLink)}><Button className="navbarHover border-0" variant="outline-transparent text-white">CONTACT</Button>{' '}</NavLink> */}
                     </Nav>
                 </Navbar.Collapse>
             </Container>

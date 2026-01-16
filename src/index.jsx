@@ -20,7 +20,7 @@ root.render(
         <Route path='/Pokedex' element={<Pokedex />} />
         <Route path='/News' element={<News />} />
         <Route path='/About' element={<About />} />
-        <Route path='/Contact' element={<Contact />} />
+        {/* <Route path='/Contact' element={<Contact />} /> */}
         <Route path='*' element={<PageNotFound />} />
       </Routes>
     </App>
