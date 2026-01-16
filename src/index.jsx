@@ -5,7 +5,7 @@ import Home from './pages/Home';
 import Pokedex from './pages/Pokedex';
 import News from './pages/News';
 import About from './pages/About';
-import Contact from './pages/Contact';
+// import Contact from './pages/Contact';
 import PageNotFound from './pages/PageNotFound';
 import App from './App';
 
